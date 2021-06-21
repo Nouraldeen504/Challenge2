@@ -1,0 +1,86 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("images/bg-pattern-bottom.svg");
+    background-color: #19a1ad;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    width: 25.35%;
+    position: relative;
+    left: 37%;
+    top: 150px;
+    text-align: center;
+}
+
+.upper{
+    background-image: url("images/bg-pattern-card.svg");
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.upper-bg img{
+    background-color: white;
+    padding: 5px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 70px;
+}
+
+.upper-bg figcaption span {
+    position: relative;
+    bottom: 50px;
+    font-size: 18px;
+}
+
+.upper-bg figcaption .name {
+    font-weight: bolder;
+}
+
+.upper-bg figcaption .age, .upper-bg figcaption p {
+    color: #89888c;
+}
+
+.upper-bg figcaption .age {
+    position: relative;
+    left: 0.4rem;
+}
+
+.upper-bg figcaption p {
+    position: relative;
+    bottom: 50px;
+    letter-spacing: 0.05rem;
+}
+
+.upper-bg {
+    border-bottom: 1px solid #89888c;
+}
+
+.bottom {
+    padding: 6%;
+}
+
+.bottom .nums {
+    font-weight: bolder;
+    font-size: 18px;
+    word-spacing: 4.5rem;
+}
+
+.bottom .titles {
+    padding: 7px;
+    word-spacing: 6.4em;
+    letter-spacing: 0.15em;
+    font-size: 0.625em;
+    position: relative;
+    right: 1.2em;
+    color: #89888c;
+}
+
+.bottom .titles span {
+    position: relative;
+    left: 1.5em;
+}
